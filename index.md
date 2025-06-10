@@ -5,7 +5,7 @@ hero:
   name: "TimeNugget"
   text: "大学生高效利用时间文档"
   image:
-    src: /logo.svg
+    src: /logo.webp
     alt: TimeNugget logo
   actions:
     - theme: brand
