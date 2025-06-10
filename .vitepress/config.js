@@ -3,11 +3,11 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "TimeNugget",
   description: "TimeNugget 文档",
-  head: [["link", { rel: "icon", href: "/avatar.png" }]],
+  head: [["link", { rel: "icon", href: "/avatar.webp" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
-    logo: "/avatar.png",
+    logo: "/avatar.webp",
 
     nav: [
       { text: "首页", link: "/" },
