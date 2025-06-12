@@ -11,8 +11,8 @@ export default defineConfig({
 
     nav: [
       { text: "首页", link: "/" },
-      { text: "文档", link: "/docs/" },
       { text: "求生宝典", link: "/SurvivalManual/" },
+      { text: "藏宝阁", link: "/Treasures/" },
       {
         text: "官方Q群",
         link: "https://qm.qq.com/q/N80scRlJmi",
@@ -24,22 +24,25 @@ export default defineConfig({
     },
 
     sidebar: {
-      "/docs/": [
+      "/Treasures/": [
         {
           text: "简介",
-          items: [{ text: "TimeNugget", link: "/docs/" }],
+          items: [{ text: "TimeNugget", link: "/Treasures/" }],
         },
         {
           text: "推荐",
           items: [
-            { text: "Github项目推荐", link: "/docs/github-recommendations" },
+            {
+              text: "Github项目推荐",
+              link: "/Treasures/github-recommendations",
+            },
           ],
         },
         {
           text: "高效使用AI",
           items: [
-            { text: "AI工具推荐", link: "/docs/ai-tools" },
-            { text: "提示词工程", link: "/docs/prompt-engineering" },
+            { text: "AI工具推荐", link: "/Treasures/ai-tools" },
+            { text: "提示词工程", link: "/Treasures/prompt-engineering" },
           ],
         },
       ],
@@ -788,6 +791,11 @@ export default defineConfig({
           items: [],
         },
       ],
+    },
+
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
     },
 
     editLink: {
