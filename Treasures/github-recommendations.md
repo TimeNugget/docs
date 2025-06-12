@@ -1,10 +1,10 @@
-# GitHub项目推荐
+# GitHub 项目推荐
 
-> 以下是精选的开源项目推荐，点击链接查看详情并关注 Star ⭐️。
+> 以下是精选的开源项目推荐，点击链接查看详情。
 
 ---
 
-## 1.学习类
+## 一、学习类
 
 1. 🚀 **freeCodeCamp** [![Stars](https://img.shields.io/github/stars/freeCodeCamp/freeCodeCamp?style=social)](https://github.com/freeCodeCamp/freeCodeCamp)
    - 🌐 地址：<https://github.com/freeCodeCamp/freeCodeCamp>  
