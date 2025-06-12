@@ -1,5 +1,31 @@
-# 第三章 时间管理：从 “被动执行” 到 “主动设计”
+# 学校建设：济南大学设施与服务速查
 
-进入大学，你会发现时间突然变得“多”了起来，没有了高中紧锣密鼓的课程表，也没有了父母老师的时刻监督。然而，这份“自由”往往是把双刃剑，很多同学因此陷入“瞎忙”的怪圈，看似每天都很充实，但成绩平平、身心俱疲。
+---
 
-本章将为你揭示时间管理的“反常识”真相，帮助你建立一套适合大学生活的优先级决策模型，并介绍一系列实用工具与系统，让你彻底告别“被动执行”，真正成为时间的主人。
+> ⚠️ 本手册仍在完善中，正在进行信息收集与整合，我们希望新生到来前能完善此宝典。  
+> 如果您愿意参与并成为贡献者之一，欢迎 **[点击这里](/CONTRIBUTING)** 看**贡献指南**。  
+> **TimeNugget**项目组在此向您表示感谢。  
+
+---
+
+## 本章目录
+
+[1. 食堂](/SurvivalManual/ujn/Third/1)
+
+[2. 图书馆](/SurvivalManual/ujn/Third/2)
+
+[3. 宿舍](/SurvivalManual/ujn/Third/3)
+
+[4. 教学楼](/SurvivalManual/ujn/Third/4)
+
+[5. 体育设施](/SurvivalManual/ujn/Third/5)
+
+[6. 医疗健康](/SurvivalManual/ujn/Third/6)
+
+[7. 交通出行](/SurvivalManual/ujn/Third/7)
+
+[8. 校园服务](/SurvivalManual/ujn/Third/8)
+
+[9. 信息化服务](/SurvivalManual/ujn/Third/9)
+
+---
