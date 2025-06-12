@@ -27,22 +27,23 @@ export default defineConfig({
       "/Treasures/": [
         {
           text: "简介",
-          items: [{ text: "TimeNugget", link: "/Treasures/" }],
+          items: [{ text: "藏宝阁", link: "/Treasures/" }],
         },
         {
-          text: "推荐",
+          text: "秘籍",
           items: [
             {
-              text: "Github项目推荐",
+              text: "Github 项目推荐",
               link: "/Treasures/github-recommendations",
             },
-          ],
-        },
-        {
-          text: "高效使用AI",
-          items: [
-            { text: "AI工具推荐", link: "/Treasures/ai-tools" },
-            { text: "提示词工程", link: "/Treasures/prompt-engineering" },
+            {
+              text: "高效使用 AI",
+              collapsed: false,
+              items: [
+                { text: "AI 工具推荐", link: "/Treasures/ai-tools" },
+                { text: "提示词工程", link: "/Treasures/prompt-engineering" },
+              ],
+            },
           ],
         },
       ],
@@ -87,7 +88,7 @@ export default defineConfig({
             {
               text: "2.你遇到的困难/你已经了解的真相",
               link: "/SurvivalManual/ujn/First/2",
-              collapsed: true,
+
               items: [
                 {
                   text: "2.1 学习方面",
