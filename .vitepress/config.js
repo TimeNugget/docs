@@ -49,7 +49,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "宝典须知", link: "/SurvivalManual/" },
-            { text: "致新济大人", link: "/SurvivalManual/toNewUJNer.md" },
+            { text: "致新济大人", link: "/SurvivalManual/toNewUJNer" },
             { text: "宝典使用说明", link: "/SurvivalManual/Guide" },
           ],
         },
@@ -60,15 +60,15 @@ export default defineConfig({
           items: [
             {
               text: "1.报到注册流程",
-              link: "/SurvivalManual/ujn/ReportProcess.md",
+              link: "/SurvivalManual/ujn/ReportProcess",
             },
             {
               text: "2.校园初识与生活必备",
-              link: "/SurvivalManual/ujn/Campus.md",
+              link: "/SurvivalManual/ujn/Campus",
             },
             {
               text: "3.融入大学生活",
-              link: "/SurvivalManual/ujn/Integrate.md",
+              link: "/SurvivalManual/ujn/Integrate",
             },
           ],
         },
@@ -79,24 +79,24 @@ export default defineConfig({
           items: [
             {
               text: "1.你的生存法则/为人处世的价值观",
-              link: "/SurvivalManual/ujn/First/1.md",
+              link: "/SurvivalManual/ujn/First/1",
             },
             {
               text: "2.你遇到的困难/你已经了解的真相",
-              link: "/SurvivalManual/ujn/First/2.md",
+              link: "/SurvivalManual/ujn/First/2",
               collapsed: true,
               items: [
                 {
                   text: "2.1 学习方面",
-                  link: "/SurvivalManual/ujn/First/3.md",
+                  link: "/SurvivalManual/ujn/First/2.1",
                 },
                 {
                   text: "2.2 生活方面",
-                  link: "/SurvivalManual/ujn/First/4.md",
+                  link: "/SurvivalManual/ujn/First/2.2",
                 },
                 {
                   text: "2.3 社会实践方面",
-                  link: "/SurvivalManual/ujn/First/5.md",
+                  link: "/SurvivalManual/ujn/First/2.3",
                 },
               ],
             },
@@ -114,23 +114,23 @@ export default defineConfig({
               items: [
                 {
                   text: "1.1 学业攻坚策略",
-                  link: "/SurvivalManual/ujn/Second/1/one.md",
+                  link: "/SurvivalManual/ujn/Second/1/1.1",
                 },
                 {
                   text: "1.2 科研与竞赛之路",
-                  link: "/SurvivalManual/ujn/Second/1/two.md",
+                  link: "/SurvivalManual/ujn/Second/1/1.2",
                 },
                 {
                   text: "1.3 独家资源与设施",
-                  link: "/SurvivalManual/ujn/Second/1/three.md",
+                  link: "/SurvivalManual/ujn/Second/1/1.3",
                 },
                 {
                   text: "1.4 学院生活与社交",
-                  link: "/SurvivalManual/ujn/Second/1/four.md",
+                  link: "/SurvivalManual/ujn/Second/1/1.4",
                 },
                 {
                   text: "1.5 就业与深造展望",
-                  link: "/SurvivalManual/ujn/Second/1/five.md",
+                  link: "/SurvivalManual/ujn/Second/1/1.5",
                 },
               ],
             },
@@ -141,23 +141,23 @@ export default defineConfig({
               items: [
                 {
                   text: "2.1 学业进阶攻略",
-                  link: "/SurvivalManual/ujn/Second/2/one.md",
+                  link: "/SurvivalManual/ujn/Second/2/2.1",
                 },
                 {
                   text: "2.2 科研与竞赛",
-                  link: "/SurvivalManual/ujn/Second/2/two.md",
+                  link: "/SurvivalManual/ujn/Second/2/2.2",
                 },
                 {
                   text: "2.3 学习资源",
-                  link: "/SurvivalManual/ujn/Second/2/three.md",
+                  link: "/SurvivalManual/ujn/Second/2/2.3",
                 },
                 {
                   text: "2.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/2/four.md",
+                  link: "/SurvivalManual/ujn/Second/2/2.4",
                 },
                 {
                   text: "2.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/2/five.md",
+                  link: "/SurvivalManual/ujn/Second/2/2.5",
                 },
               ],
             },
@@ -168,23 +168,23 @@ export default defineConfig({
               items: [
                 {
                   text: "3.1 学业精进之路",
-                  link: "/SurvivalManual/ujn/Second/3/one.md",
+                  link: "/SurvivalManual/ujn/Second/3/3.1",
                 },
                 {
                   text: "3.2 实践与创新",
-                  link: "/SurvivalManual/ujn/Second/3/two.md",
+                  link: "/SurvivalManual/ujn/Second/3/3.2",
                 },
                 {
                   text: "3.3 实验室与资源",
-                  link: "/SurvivalManual/ujn/Second/3/three.md",
+                  link: "/SurvivalManual/ujn/Second/3/3.3",
                 },
                 {
                   text: "3.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/3/four.md",
+                  link: "/SurvivalManual/ujn/Second/3/3.4",
                 },
                 {
                   text: "3.5 职业发展",
-                  link: "/SurvivalManual/ujn/Second/3/five.md",
+                  link: "/SurvivalManual/ujn/Second/3/3.5",
                 },
               ],
             },
@@ -195,23 +195,23 @@ export default defineConfig({
               items: [
                 {
                   text: "4.1 学习策略与方法",
-                  link: "/SurvivalManual/ujn/Second/4/one.md",
+                  link: "/SurvivalManual/ujn/Second/4/4.1",
                 },
                 {
                   text: "4.2 实践与竞赛",
-                  link: "/SurvivalManual/ujn/Second/4/two.md",
+                  link: "/SurvivalManual/ujn/Second/4/4.2",
                 },
                 {
                   text: "4.3 资源与平台",
-                  link: "/SurvivalManual/ujn/Second/4/three.md",
+                  link: "/SurvivalManual/ujn/Second/4/4.3",
                 },
                 {
                   text: "4.4 学院生活与社交",
-                  link: "/SurvivalManual/ujn/Second/4/four.md",
+                  link: "/SurvivalManual/ujn/Second/4/4.4",
                 },
                 {
                   text: "4.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/4/five.md",
+                  link: "/SurvivalManual/ujn/Second/4/4.5",
                 },
               ],
             },
@@ -222,23 +222,23 @@ export default defineConfig({
               items: [
                 {
                   text: "5.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/5/one.md",
+                  link: "/SurvivalManual/ujn/Second/5/5.1",
                 },
                 {
                   text: "5.2 科研与实践",
-                  link: "/SurvivalManual/ujn/Second/5/two.md",
+                  link: "/SurvivalManual/ujn/Second/5/5.2",
                 },
                 {
                   text: "5.3 资源利用",
-                  link: "/SurvivalManual/ujn/Second/5/three.md",
+                  link: "/SurvivalManual/ujn/Second/5/5.3",
                 },
                 {
                   text: "5.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/5/four.md",
+                  link: "/SurvivalManual/ujn/Second/5/5.4",
                 },
                 {
                   text: "5.5 发展方向",
-                  link: "/SurvivalManual/ujn/Second/5/five.md",
+                  link: "/SurvivalManual/ujn/Second/5/5.5",
                 },
               ],
             },
@@ -249,23 +249,23 @@ export default defineConfig({
               items: [
                 {
                   text: "6.1 学业攻坚",
-                  link: "/SurvivalManual/ujn/Second/6/one.md",
+                  link: "/SurvivalManual/ujn/Second/6/6.1",
                 },
                 {
                   text: "6.2 实践与竞赛",
-                  link: "/SurvivalManual/ujn/Second/6/two.md",
+                  link: "/SurvivalManual/ujn/Second/6/6.2",
                 },
                 {
                   text: "6.3 资源与平台",
-                  link: "/SurvivalManual/ujn/Second/6/three.md",
+                  link: "/SurvivalManual/ujn/Second/6/6.3",
                 },
                 {
                   text: "6.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/6/four.md",
+                  link: "/SurvivalManual/ujn/Second/6/6.4",
                 },
                 {
                   text: "6.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/6/five.md",
+                  link: "/SurvivalManual/ujn/Second/6/6.5",
                 },
               ],
             },
@@ -276,23 +276,23 @@ export default defineConfig({
               items: [
                 {
                   text: "7.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/7/one.md",
+                  link: "/SurvivalManual/ujn/Second/7/7.1",
                 },
                 {
                   text: "7.2 实践与创作",
-                  link: "/SurvivalManual/ujn/Second/7/two.md",
+                  link: "/SurvivalManual/ujn/Second/7/7.2",
                 },
                 {
                   text: "7.3 资源利用",
-                  link: "/SurvivalManual/ujn/Second/7/three.md",
+                  link: "/SurvivalManual/ujn/Second/7/7.3",
                 },
                 {
                   text: "7.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/7/four.md",
+                  link: "/SurvivalManual/ujn/Second/7/7.4",
                 },
                 {
                   text: "7.5 发展方向",
-                  link: "/SurvivalManual/ujn/Second/7/five.md",
+                  link: "/SurvivalManual/ujn/Second/7/7.5",
                 },
               ],
             },
@@ -303,23 +303,23 @@ export default defineConfig({
               items: [
                 {
                   text: "8.1 语言学习秘籍",
-                  link: "/SurvivalManual/ujn/Second/8/one.md",
+                  link: "/SurvivalManual/ujn/Second/8/8.1",
                 },
                 {
                   text: "8.2 跨文化体验",
-                  link: "/SurvivalManual/ujn/Second/8/two.md",
+                  link: "/SurvivalManual/ujn/Second/8/8.2",
                 },
                 {
                   text: "8.3 资源与平台",
-                  link: "/SurvivalManual/ujn/Second/8/three.md",
+                  link: "/SurvivalManual/ujn/Second/8/8.3",
                 },
                 {
                   text: "8.4 学院生活与社交",
-                  link: "/SurvivalManual/ujn/Second/8/four.md",
+                  link: "/SurvivalManual/ujn/Second/8/8.4",
                 },
                 {
                   text: "8.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/8/five.md",
+                  link: "/SurvivalManual/ujn/Second/8/8.5",
                 },
               ],
             },
@@ -330,23 +330,23 @@ export default defineConfig({
               items: [
                 {
                   text: "9.1 学业深耕",
-                  link: "/SurvivalManual/ujn/Second/9/one.md",
+                  link: "/SurvivalManual/ujn/Second/9/9.1",
                 },
                 {
                   text: "9.2 实践与研究",
-                  link: "/SurvivalManual/ujn/Second/9/two.md",
+                  link: "/SurvivalManual/ujn/Second/9/9.2",
                 },
                 {
                   text: "9.3 资源利用",
-                  link: "/SurvivalManual/ujn/Second/9/three.md",
+                  link: "/SurvivalManual/ujn/Second/9/9.3",
                 },
                 {
                   text: "9.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/9/four.md",
+                  link: "/SurvivalManual/ujn/Second/9/9.4",
                 },
                 {
                   text: "9.5 职业发展",
-                  link: "/SurvivalManual/ujn/Second/9/five.md",
+                  link: "/SurvivalManual/ujn/Second/9/9.5",
                 },
               ],
             },
@@ -357,23 +357,23 @@ export default defineConfig({
               items: [
                 {
                   text: "10.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/10/one.md",
+                  link: "/SurvivalManual/ujn/Second/10/10.1",
                 },
                 {
                   text: "10.2 实践与科研",
-                  link: "/SurvivalManual/ujn/Second/10/two.md",
+                  link: "/SurvivalManual/ujn/Second/10/10.2",
                 },
                 {
                   text: "10.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/10/three.md",
+                  link: "/SurvivalManual/ujn/Second/10/10.3",
                 },
                 {
                   text: "10.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/10/four.md",
+                  link: "/SurvivalManual/ujn/Second/10/10.4",
                 },
                 {
                   text: "10.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/10/five.md",
+                  link: "/SurvivalManual/ujn/Second/10/10.5",
                 },
               ],
             },
@@ -384,23 +384,23 @@ export default defineConfig({
               items: [
                 {
                   text: "11.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/11/one.md",
+                  link: "/SurvivalManual/ujn/Second/11/11.1",
                 },
                 {
                   text: "11.2 实践与科研",
-                  link: "/SurvivalManual/ujn/Second/11/two.md",
+                  link: "/SurvivalManual/ujn/Second/11/11.2",
                 },
                 {
                   text: "11.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/11/three.md",
+                  link: "/SurvivalManual/ujn/Second/11/11.3",
                 },
                 {
                   text: "11.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/11/four.md",
+                  link: "/SurvivalManual/ujn/Second/11/11.4",
                 },
                 {
                   text: "11.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/11/five.md",
+                  link: "/SurvivalManual/ujn/Second/11/11.5",
                 },
               ],
             },
@@ -411,23 +411,23 @@ export default defineConfig({
               items: [
                 {
                   text: "12.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/12/one.md",
+                  link: "/SurvivalManual/ujn/Second/12/12.1",
                 },
                 {
-                  text: "[12.2 实践与创新",
-                  link: "/SurvivalManual/ujn/Second/12/two.md",
+                  text: "12.2 实践与创新",
+                  link: "/SurvivalManual/ujn/Second/12/12.2",
                 },
                 {
                   text: "12.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/12/three.md",
+                  link: "/SurvivalManual/ujn/Second/12/12.3",
                 },
                 {
                   text: "12.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/12/four.md",
+                  link: "/SurvivalManual/ujn/Second/12/12.4",
                 },
                 {
                   text: "12.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/12/five.md",
+                  link: "/SurvivalManual/ujn/Second/12/12.5",
                 },
               ],
             },
@@ -438,19 +438,19 @@ export default defineConfig({
               items: [
                 {
                   text: "13.1 必修实践课程",
-                  link: "/SurvivalManual/ujn/Second/13/one.md",
+                  link: "/SurvivalManual/ujn/Second/13/13.1",
                 },
                 {
                   text: "13.2 设备与工具",
-                  link: "/SurvivalManual/ujn/Second/13/two.md",
+                  link: "/SurvivalManual/ujn/Second/13/13.2",
                 },
                 {
                   text: "13.3 创新实践与开放实验室",
-                  link: "/SurvivalManual/ujn/Second/13/three.md",
+                  link: "/SurvivalManual/ujn/Second/13/13.3",
                 },
                 {
                   text: "13.4 经验分享",
-                  link: "/SurvivalManual/ujn/Second/13/four.md",
+                  link: "/SurvivalManual/ujn/Second/13/13.4",
                 },
               ],
             },
@@ -461,23 +461,23 @@ export default defineConfig({
               items: [
                 {
                   text: "14.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/14/one.md",
+                  link: "/SurvivalManual/ujn/Second/14/14.1",
                 },
                 {
                   text: "14.2 实践与设计",
-                  link: "/SurvivalManual/ujn/Second/14/two.md",
+                  link: "/SurvivalManual/ujn/Second/14/14.2",
                 },
                 {
                   text: "14.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/14/three.md",
+                  link: "/SurvivalManual/ujn/Second/14/14.3",
                 },
                 {
                   text: "14.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/14/four.md",
+                  link: "/SurvivalManual/ujn/Second/14/14.4",
                 },
                 {
                   text: "14.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/14/five.md",
+                  link: "/SurvivalManual/ujn/Second/14/14.5",
                 },
               ],
             },
@@ -488,23 +488,23 @@ export default defineConfig({
               items: [
                 {
                   text: "15.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/15/one.md",
+                  link: "/SurvivalManual/ujn/Second/15/15.1",
                 },
                 {
                   text: "15.2 实践与调研",
-                  link: "/SurvivalManual/ujn/Second/15/two.md",
+                  link: "/SurvivalManual/ujn/Second/15/15.2",
                 },
                 {
                   text: "15.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/15/three.md",
+                  link: "/SurvivalManual/ujn/Second/15/15.3",
                 },
                 {
                   text: "15.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/15/four.md",
+                  link: "/SurvivalManual/ujn/Second/15/15.4",
                 },
                 {
                   text: "15.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/15/five.md",
+                  link: "/SurvivalManual/ujn/Second/15/15.5",
                 },
               ],
             },
@@ -515,23 +515,23 @@ export default defineConfig({
               items: [
                 {
                   text: "16.1 专业技能提升",
-                  link: "/SurvivalManual/ujn/Second/16/one.md",
+                  link: "/SurvivalManual/ujn/Second/16/16.1",
                 },
                 {
                   text: "16.2 实践与赛事",
-                  link: "/SurvivalManual/ujn/Second/16/two.md",
+                  link: "/SurvivalManual/ujn/Second/16/16.2",
                 },
                 {
                   text: "16.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/16/three.md",
+                  link: "/SurvivalManual/ujn/Second/16/16.3",
                 },
                 {
                   text: "16.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/16/four.md",
+                  link: "/SurvivalManual/ujn/Second/16/16.4",
                 },
                 {
                   text: "16.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/16/five.md",
+                  link: "/SurvivalManual/ujn/Second/16/16.5",
                 },
               ],
             },
@@ -542,23 +542,23 @@ export default defineConfig({
               items: [
                 {
                   text: "17.1 艺术与技法",
-                  link: "/SurvivalManual/ujn/Second/17/one.md",
+                  link: "/SurvivalManual/ujn/Second/17/17.1",
                 },
                 {
                   text: "17.2 创作与展示",
-                  link: "/SurvivalManual/ujn/Second/17/two.md",
+                  link: "/SurvivalManual/ujn/Second/17/17.2",
                 },
                 {
                   text: "17.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/17/three.md",
+                  link: "/SurvivalManual/ujn/Second/17/17.3",
                 },
                 {
                   text: "17.4 学院生活与社交",
-                  link: "/SurvivalManual/ujn/Second/17/four.md",
+                  link: "/SurvivalManual/ujn/Second/17/17.4",
                 },
                 {
                   text: "17.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/17/five.md",
+                  link: "/SurvivalManual/ujn/Second/17/17.5",
                 },
               ],
             },
@@ -569,23 +569,23 @@ export default defineConfig({
               items: [
                 {
                   text: "18.1 专业技能提升",
-                  link: "/SurvivalManual/ujn/Second/18/one.md",
+                  link: "/SurvivalManual/ujn/Second/18/18.1",
                 },
                 {
                   text: "18.2 表演与实践",
-                  link: "/SurvivalManual/ujn/Second/18/two.md",
+                  link: "/SurvivalManual/ujn/Second/18/18.2",
                 },
                 {
                   text: "18.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/18/three.md",
+                  link: "/SurvivalManual/ujn/Second/18/18.3",
                 },
                 {
                   text: "18.4 学院生活与社交",
-                  link: "/SurvivalManual/ujn/Second/18/four.md",
+                  link: "/SurvivalManual/ujn/Second/18/18.4",
                 },
                 {
                   text: "18.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/18/five.md",
+                  link: "/SurvivalManual/ujn/Second/18/18.5",
                 },
               ],
             },
@@ -596,23 +596,23 @@ export default defineConfig({
               items: [
                 {
                   text: "19.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/19/one.md",
+                  link: "/SurvivalManual/ujn/Second/19/19.1",
                 },
                 {
                   text: "19.2 实践与调研",
-                  link: "/SurvivalManual/ujn/Second/19/two.md",
+                  link: "/SurvivalManual/ujn/Second/19/19.2",
                 },
                 {
                   text: "19.3 资源与平台",
-                  link: "/SurvivalManual/ujn/Second/19/three.md",
+                  link: "/SurvivalManual/ujn/Second/19/19.3",
                 },
                 {
                   text: "19.4 学院生活与社交",
-                  link: "/SurvivalManual/ujn/Second/19/four.md",
+                  link: "/SurvivalManual/ujn/Second/19/19.4",
                 },
                 {
                   text: "19.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/19/five.md",
+                  link: "/SurvivalManual/ujn/Second/19/19.5",
                 },
               ],
             },
@@ -623,23 +623,23 @@ export default defineConfig({
               items: [
                 {
                   text: "20.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/20/one.md",
+                  link: "/SurvivalManual/ujn/Second/20/20.1",
                 },
                 {
                   text: "20.2 实践与研究",
-                  link: "/SurvivalManual/ujn/Second/20/two.md",
+                  link: "/SurvivalManual/ujn/Second/20/20.2",
                 },
                 {
                   text: "20.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/20/three.md",
+                  link: "/SurvivalManual/ujn/Second/20/20.3",
                 },
                 {
                   text: "20.4 学院生活与社交",
-                  link: "/SurvivalManual/ujn/Second/20/four.md",
+                  link: "/SurvivalManual/ujn/Second/20/20.4",
                 },
                 {
                   text: "20.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/20/five.md",
+                  link: "/SurvivalManual/ujn/Second/20/20.5",
                 },
               ],
             },
@@ -650,23 +650,23 @@ export default defineConfig({
               items: [
                 {
                   text: "21.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/21/one.md",
+                  link: "/SurvivalManual/ujn/Second/21/21.1",
                 },
                 {
                   text: "21.2 实践与科研",
-                  link: "/SurvivalManual/ujn/Second/21/two.md",
+                  link: "/SurvivalManual/ujn/Second/21/21.2",
                 },
                 {
                   text: "21.3 资源与设施",
-                  link: "/SurvivalManual/ujn/Second/21/three.md",
+                  link: "/SurvivalManual/ujn/Second/21/21.3",
                 },
                 {
                   text: "21.4 学院生活",
-                  link: "/SurvivalManual/ujn/Second/21/four.md",
+                  link: "/SurvivalManual/ujn/Second/21/21.4",
                 },
                 {
                   text: "21.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/21/five.md",
+                  link: "/SurvivalManual/ujn/Second/21/21.5",
                 },
               ],
             },
@@ -677,23 +677,23 @@ export default defineConfig({
               items: [
                 {
                   text: "22.1 学业精进",
-                  link: "/SurvivalManual/ujn/Second/22/one.md",
+                  link: "/SurvivalManual/ujn/Second/22/22.1",
                 },
                 {
                   text: "22.2 实践与研究",
-                  link: "/SurvivalManual/ujn/Second/22/two.md",
+                  link: "/SurvivalManual/ujn/Second/22/22.2",
                 },
                 {
                   text: "22.3 资源与平台",
-                  link: "/SurvivalManual/ujn/Second/22/three.md",
+                  link: "/SurvivalManual/ujn/Second/22/22.3",
                 },
                 {
                   text: "22.4 学院生活与社交",
-                  link: "/SurvivalManual/ujn/Second/22/four.md",
+                  link: "/SurvivalManual/ujn/Second/22/22.4",
                 },
                 {
                   text: "22.5 就业与深造",
-                  link: "/SurvivalManual/ujn/Second/22/five.md",
+                  link: "/SurvivalManual/ujn/Second/22/22.5",
                 },
               ],
             },
@@ -704,19 +704,19 @@ export default defineConfig({
               items: [
                 {
                   text: "23.1 学习模式与管理",
-                  link: "/SurvivalManual/ujn/Second/23/one.md",
+                  link: "/SurvivalManual/ujn/Second/23/23.1",
                 },
                 {
                   text: "23.2 职业发展与转型",
-                  link: "/SurvivalManual/ujn/Second/23/two.md",
+                  link: "/SurvivalManual/ujn/Second/23/23.2",
                 },
                 {
                   text: "23.3 资源与支持",
-                  link: "/SurvivalManual/ujn/Second/23/three.md",
+                  link: "/SurvivalManual/ujn/Second/23/23.3",
                 },
                 {
                   text: "23.4 学习生活",
-                  link: "/SurvivalManual/ujn/Second/23/four.md",
+                  link: "/SurvivalManual/ujn/Second/23/23.4",
                 },
               ],
             },
@@ -727,11 +727,11 @@ export default defineConfig({
               items: [
                 {
                   text: "24.1 国际学生篇",
-                  link: "/SurvivalManual/ujn/Second/24/one.md",
+                  link: "/SurvivalManual/ujn/Second/24/24.1",
                 },
                 {
                   text: "24.2 中国学生篇",
-                  link: "/SurvivalManual/ujn/Second/24/two.md",
+                  link: "/SurvivalManual/ujn/Second/24/24.2",
                 },
               ],
             },
@@ -744,19 +744,19 @@ export default defineConfig({
           items: [
             {
               text: "1.食堂",
-              link: "/SurvivalManual/ujn/Third/1.md",
+              link: "/SurvivalManual/ujn/Third/1",
             },
             {
               text: "2.图书馆",
-              link: "/SurvivalManual/ujn/Third/2.md",
+              link: "/SurvivalManual/ujn/Third/2",
             },
-            { text: "3.宿舍", link: "/SurvivalManual/ujn/Third/3.md" },
-            { text: "4.教学楼", link: "/SurvivalManual/ujn/Third/4.md" },
-            { text: "5.体育设施", link: "/SurvivalManual/ujn/Third/5.md" },
-            { text: "6.医疗健康", link: "/SurvivalManual/ujn/Third/6.md" },
-            { text: "7.交通出行", link: "/SurvivalManual/ujn/Third/7.md" },
-            { text: "8.校园服务", link: "/SurvivalManual/ujn/Third/8.md" },
-            { text: "9.信息化服务", link: "/SurvivalManual/ujn/Third/9.md" },
+            { text: "3.宿舍", link: "/SurvivalManual/ujn/Third/3" },
+            { text: "4.教学楼", link: "/SurvivalManual/ujn/Third/4" },
+            { text: "5.体育设施", link: "/SurvivalManual/ujn/Third/5" },
+            { text: "6.医疗健康", link: "/SurvivalManual/ujn/Third/6" },
+            { text: "7.交通出行", link: "/SurvivalManual/ujn/Third/7" },
+            { text: "8.校园服务", link: "/SurvivalManual/ujn/Third/8" },
+            { text: "9.信息化服务", link: "/SurvivalManual/ujn/Third/9" },
           ],
         },
         {
@@ -766,25 +766,26 @@ export default defineConfig({
           items: [
             {
               text: "我在信院四年的感悟",
-              link: "/SurvivalManual/ujn/Fourth/1.md",
+              link: "/SurvivalManual/ujn/Fourth/1",
             },
             {
               text: "如果重来，我会这样规划我的大学",
-              link: "/SurvivalManual/ujn/Fourth/2.md",
+              link: "/SurvivalManual/ujn/Fourth/2",
             },
             {
               text: "我的跨专业/转专业/考研/出国/就业经历",
-              link: "/SurvivalManual/ujn/Fourth/3.md",
+              link: "/SurvivalManual/ujn/Fourth/3",
             },
             {
               text: "给学弟学妹的忠告",
-              link: "/SurvivalManual/ujn/Fourth/4.md",
+              link: "/SurvivalManual/ujn/Fourth/4",
             },
           ],
         },
         {
           text: "五. 致谢与反馈",
-          link: "/SurvivalManual/ujn/Thanks.md",
+          link: "/SurvivalManual/ujn/Thanks",
+          items: [],
         },
       ],
     },

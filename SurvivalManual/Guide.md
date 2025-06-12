@@ -5,44 +5,57 @@ title: "《济南大学求生宝典》使用说明"
 # 《济南大学求生宝典》使用说明
 
 > 🚀 本项目处于信息收集与整合阶段，内容为草稿，仅供参考  
-> 🙏 **成为贡献者**：[点击这里](/docs/index.md)  
+> 🙏 **成为贡献者**：[点击这里](/docs/)  
 
 ---
 
 ## 📖 目录导航
 
-<div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; margin:16px 0;">
-  <div style="flex:1; min-width:120px; background:#fff9c4; color:blue; padding:12px; border-radius:8px; text-align:center;">
-    <a href="/SurvivalManual/ujn/" style="text-decoration:none; color:inherit;">
-      <div style="font-size:1.2em;">📜 零. 新生指引</div>
+<div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:16px; margin:24px 0;">
+  <div style="flex:1; min-width:150px; background:linear-gradient(135deg, #fff9c4 0%, #fff3a0 100%); color:#2c5aa0; padding:16px; border-radius:12px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.1); border:1px solid #f0e68c; transition:all 0.3s ease;">
+    <a href="/SurvivalManual/ujn/" style="text-decoration:none; color:inherit; display:block;">
+      <div style="font-size:1.3em; font-weight:600; margin-bottom:4px;">📜 零. 新生指引</div>
+      <div style="font-size:0.85em; opacity:0.8;">新手入门必读</div>
     </a>
   </div>
-  <div style="flex:1; min-width:120px; background:#fff9c4; color:blue; padding:12px; border-radius:8px; text-align:center;">
-    <a href="/SurvivalManual/ujn/First/" style="text-decoration:none; color:inherit;">
-      <div style="font-size:1.2em;">💬 一. 共识问题</div>
+  <div style="flex:1; min-width:150px; background:linear-gradient(135deg, #e8f4fd 0%, #b8e0ff 100%); color:#1e3a8a; padding:16px; border-radius:12px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.1); border:1px solid #93c5fd; transition:all 0.3s ease;">
+    <a href="/SurvivalManual/ujn/First/" style="text-decoration:none; color:inherit; display:block;">
+      <div style="font-size:1.3em; font-weight:600; margin-bottom:4px;">💬 一. 共识问题</div>
+      <div style="font-size:0.85em; opacity:0.8;">常见疑问解答</div>
     </a>
   </div>
-  <div style="flex:1; min-width:120px; background:#fff9c4; color:blue; padding:12px; border-radius:8px; text-align:center;">
-    <a href="/SurvivalManual/ujn/Second/" style="text-decoration:none; color:inherit;">
-      <div style="font-size:1.2em;">🏫 二. 细分学院</div>
+  <div style="flex:1; min-width:150px; background:linear-gradient(135deg, #f0fdf4 0%, #bbf7d0 100%); color:#166534; padding:16px; border-radius:12px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.1); border:1px solid #86efac; transition:all 0.3s ease;">
+    <a href="/SurvivalManual/ujn/Second/" style="text-decoration:none; color:inherit; display:block;">
+      <div style="font-size:1.3em; font-weight:600; margin-bottom:4px;">🏫 二. 细分学院</div>
+      <div style="font-size:0.85em; opacity:0.8;">院系专业介绍</div>
     </a>
   </div>
-  <div style="flex:1; min-width:120px; background:#fff9c4; color:blue; padding:12px; border-radius:8px; text-align:center;">
-    <a href="/SurvivalManual/ujn/Third/" style="text-decoration:none; color:inherit;">
-      <div style="font-size:1.2em;">🏠 三. 学校建设</div>
+  <div style="flex:1; min-width:150px; background:linear-gradient(135deg, #fef3c7 0%, #fcd34d 100%); color:#92400e; padding:16px; border-radius:12px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.1); border:1px solid #fbbf24; transition:all 0.3s ease;">
+    <a href="/SurvivalManual/ujn/Third/" style="text-decoration:none; color:inherit; display:block;">
+      <div style="font-size:1.3em; font-weight:600; margin-bottom:4px;">🏠 三. 学校建设</div>
+      <div style="font-size:0.85em; opacity:0.8;">校园设施指南</div>
     </a>
   </div>
-  <div style="flex:1; min-width:120px; background:#fff9c4; color:blue; padding:12px; border-radius:8px; text-align:center;">
-    <a href="/SurvivalManual/ujn/Fourth/" style="text-decoration:none; color:inherit;">
-      <div style="font-size:1.2em;">⏳ 四. 学长学姐碎碎念</div>
+  <div style="flex:1; min-width:150px; background:linear-gradient(135deg, #fef2f2 0%, #fecaca 100%); color:#991b1b; padding:16px; border-radius:12px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.1); border:1px solid #f87171; transition:all 0.3s ease;">
+    <a href="/SurvivalManual/ujn/Fourth/" style="text-decoration:none; color:inherit; display:block;">
+      <div style="font-size:1.3em; font-weight:600; margin-bottom:4px;">⏳ 四. 学长学姐碎碎念</div>
+      <div style="font-size:0.85em; opacity:0.8;">经验分享交流</div>
     </a>
   </div>
-  <div style="flex:1; min-width:120px; background:#fff9c4; color:blue; padding:12px; border-radius:8px; text-align:center;">
-    <a href="/SurvivalManual/ujn/Thanks.md" style="text-decoration:none; color:inherit;">
-      <div style="font-size:1.2em;">🙇‍ 五. 致谢与反馈</div>
+  <div style="flex:1; min-width:150px; background:linear-gradient(135deg, #f3e8ff 0%, #c4b5fd 100%); color:#6b21a8; padding:16px; border-radius:12px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.1); border:1px solid #a78bfa; transition:all 0.3s ease;">
+    <a href="/SurvivalManual/ujn/Thanks" style="text-decoration:none; color:inherit; display:block;">
+      <div style="font-size:1.3em; font-weight:600; margin-bottom:4px;">🙇‍ 五. 致谢与反馈</div>
+      <div style="font-size:0.85em; opacity:0.8;">贡献与建议</div>
     </a>
   </div>
 </div>
+
+<style>
+  div[style*="linear-gradient"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
+  }
+</style>
 
 核心理念：**主动探索 · 精准定位 · 深度挖掘**
 
@@ -52,7 +65,7 @@ title: "《济南大学求生宝典》使用说明"
 
 ### 1. 了解本宝典结构
 
-> 💡 _Use “目录导航”作为地图，快速扫视大分类和子标题。_
+> 💡 *Use “目录导航”作为地图，快速扫视大分类和子标题。*
 
 - **封面 / 序言**：掌握宗旨与作者意图  
 - **目录**：总览全局  
@@ -65,7 +78,7 @@ title: "《济南大学求生宝典》使用说明"
 
 ### 2. 明确你的问题
 
-> 🔍 _“问题越具体，寻找答案越高效。”_
+> 🔍 *“问题越具体，寻找答案越高效。”*
 
 - 错误示例：我想知道大学怎么学习  
 - 高效示例：如果我高数快挂了，我该怎么办？  
@@ -73,7 +86,7 @@ title: "《济南大学求生宝典》使用说明"
 
 ### 3. 多维度寻找答案
 
-> 🛰️ _“雷达扫描”策略，不盯一处，多面搜索。_
+> 🛰️ *“雷达扫描”策略，不盯一处，多面搜索。*
 
 - **目录定位**：根据关键词直达子章节  
 - **使用索引**：快速查找术语  
@@ -83,7 +96,7 @@ title: "《济南大学求生宝典》使用说明"
 
 ### 4. 深度阅读与应用
 
-> 🧐 _精读 + 做笔记 + 行动计划_
+> 🧐 *精读 + 做笔记 + 行动计划*
 
 - 逐字阅读关键信息  
 - 截重点、写笔记  
@@ -92,7 +105,7 @@ title: "《济南大学求生宝典》使用说明"
 
 ### 5. 持续更新与拓展
 
-> 🌱 _“成长迭代”是大学生活的常态。_
+> 🌱 *“成长迭代”是大学生活的常态。*
 
 - 定期回顾：结合之前的实践做复盘
 - 结合校情、院情、专业特点调整  

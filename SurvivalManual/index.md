@@ -18,7 +18,7 @@ description: "一站式生存指南，助你在济南大学游刃有余"
 
 ## 🤝 贡献指南  
 
-【[查看详细讲解](/CONTRIBUTING.md)】
+【[查看详细讲解](/CONTRIBUTING)】
 
 ***
 
