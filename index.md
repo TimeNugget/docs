@@ -20,11 +20,17 @@ hero:
       link: "https://qm.qq.com/q/N80scRlJmi"
 
 features:
-    - title: '<div style="text-align: center;">点击上方按钮开始探索</div>'
-      details: '<div style="text-align: center;"><strong>求生宝典</strong>提供大学生活指南，<strong>藏宝阁</strong>获取优质资源，<strong>加入Q群</strong>或访问<strong>GitHub</strong>作出贡献</div>'
+    - title: 点击上方按钮开始探索
+      details: <strong>求生宝典</strong>提供大学生活指南，<strong>藏宝阁</strong>获取优质资源，<strong>加入Q群</strong>或访问<strong>GitHub</strong>作出贡献
 ---
 
 <style>
+.title {
+  text-align: center;
+}
+.details {
+  text-align: center;
+}
 /* Logo浮动和旋转动画效果 */
 .image-container {
   animation: logoFloat 3s ease-in-out infinite;
