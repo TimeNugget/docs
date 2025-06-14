@@ -800,7 +800,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/TimeNugget/timenugget-docs/edit/main/:path",
+      pattern: "https://github.com/TimeNugget/timenugget-docs/edit/dev/:path",
       text: "在 GitHub 上编辑此页",
     },
 
