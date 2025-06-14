@@ -75,4 +75,4 @@
 
 1. 步骤如下，按照提示使用即可
 
-   ![吹风机](/Ujnair blower.webp)
+   ![吹风机](/Ujnairblower.webp)
