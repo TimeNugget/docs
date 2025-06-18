@@ -10,20 +10,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install jq
+        run: sudo apt-get install -y jq
+        
+      - name: Extract commit info
+        id: commit-info
+        run: |
+          AUTHOR_NAME="${{ github.event.head_commit.author.name }}"
+          COMMIT_MESSAGE=$(echo '${{ github.event.head_commit.message }}' | jq -R . | sed 's/^"//;s/"$//')
+          echo "author_name=$AUTHOR_NAME" >> $GITHUB_OUTPUT
+          echo "commit_message=$COMMIT_MESSAGE" >> $GITHUB_OUTPUT
+          
       - name: Send notification
         run: |
+          JSON_DATA=$(jq -n \
+            --arg sha "${{ github.sha }}" \
+            --arg author "${{ steps.commit-info.outputs.author_name }}" \
+            --arg message "${{ steps.commit-info.outputs.commit_message }}" \
+            '{
+              "group_id": "1053570434",
+              "message": [
+                {
+                  "type": "text",
+                  "data": {
+                    "text": "📢 主分支已更新！\n\n👤 作者: \($author)\n📝 描述: \($message)\n🔗 提交: \($sha)"
+                  }
+                }
+              ]
+            }')
+          
           curl -X POST \
             "https://${{ secrets.APIURL }}/send_group_msg" \
             -H "Authorization: Bearer ${{ secrets.APITOKEN }}" \
             -H "Content-Type: application/json" \
-            -d '{
-                 "group_id": "1053570434",
-                 "message": [
-                   {
-                     "type": "text",
-                     "data": {
-                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述:\n🔗 提交: ${{ github.sha }}"
-                     }
-                   }
-                 ]
-               }'
+            -d "$JSON_DATA"
