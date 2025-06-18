@@ -8,10 +8,11 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest
-
     steps:
       - name: Send notification
         run: |
+          COMMIT_MESSAGE=$(echo '${{ github.event.head_commit.message }}' | tr '\n' ' ')
+          
           curl -X POST \
             "https://${{ secrets.APIURL }}/send_group_msg" \
             -H "Authorization: Bearer ${{ secrets.APITOKEN }}" \
@@ -22,7 +23,7 @@ jobs:
                    {
                      "type": "text",
                      "data": {
-                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述: ${{ GITHUB.EVENT.NAME }}\n🔗 提交: ${{ github.sha }}"
+                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述: '"$COMMIT_MESSAGE"'\n🔗 提交: ${{ github.sha }}"
                      }
                    }
                  ]
