@@ -11,22 +11,19 @@ jobs:
 
     steps:
       - name: Send notification
-        uses: actions/http-client@v1
-        with:
-          url: 'https://${{ secrets.APIURL }}/send_group_msg'
-          method: 'POST'
-          headers: |
-            Authorization: Bearer ${{ secrets.APITOKEN }}
-            Content-Type: application/json
-          body: |
-            {
-              "group_id": "1053570434",
-              "message": [
-                {
-                  "type": "text",
-                  "data": {
-                    "text": "主分支已更新！最新提交: ${{ github.sha }}"
-                  }
-                }
-              ]
-            }
+        run: |
+          curl -X POST \
+            "https://${{ secrets.APIURL }}/send_group_msg" \
+            -H "Authorization: Bearer ${{ secrets.APITOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+                 "group_id": "1053570434",
+                 "message": [
+                   {
+                     "type": "text",
+                     "data": {
+                       "text": "主分支已更新！最新提交: ${{ github.sha }}"
+                     }
+                   }
+                 ]
+               }'
