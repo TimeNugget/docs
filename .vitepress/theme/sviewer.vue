@@ -1,7 +1,10 @@
 <template>
+  <div>
   <div v-viewer="options" class="image-viewer">
     <slot></slot>
   </div>
+  <button type="button" @click="show">Show</button>
+ </div>
 </template>
 
 <script>
