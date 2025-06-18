@@ -791,6 +791,16 @@ export default defineConfig({
           link: "/SurvivalManual/ujn/Thanks",
           items: [],
         },
+        {
+          text: "附：济大地图",
+          link: "/SurvivalManual/ujn/Map",
+          items: [],
+        },
+        {
+          text: "附：济大学工人员联系表",
+          link: "/SurvivalManual/ujn/addressbook",
+          items: [],
+        },
       ],
     },
 
