@@ -1,5 +1,10 @@
 # 附录：济大主校区地图
 
-<sviewer>
+<ClientOnly>
+
+<div v-viewer>
   <img src="/Ujnmap.webp" alt="地图">
-</sviewer>
+</div v-viewer>
+
+</ClientOnly>
+
