@@ -22,7 +22,7 @@ jobs:
                    {
                      "type": "text",
                      "data": {
-                       "text": "主分支已更新！\n最新提交: ${{ github.sha }}\n提交者:${GITHUB_ACTOR}\n描述:${{ github.event.head_commit.message }}"
+                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述: ${{ github.event.head_commit.message }}\n🔗 提交: ${{ github.sha }}"
                      }
                    }
                  ]
