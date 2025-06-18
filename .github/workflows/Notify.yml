@@ -22,7 +22,7 @@ jobs:
                    {
                      "type": "text",
                      "data": {
-                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述: ${{ GITHUB_EVENT_NAME }}\n🔗 提交: ${{ github.sha }}"
+                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述: ${{ GITHUB.EVENT.NAME }}\n🔗 提交: ${{ github.sha }}"
                      }
                    }
                  ]
