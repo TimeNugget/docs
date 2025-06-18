@@ -1,23 +1,28 @@
-<script setup>
-import { ref, onMounted } from 'vue'
+<template>
+  <div v-viewer="options" class="image-viewer">
+    <slot></slot>
+  </div>
+</template>
 
-const container = ref(null)
+<script>
+import { defineComponent } from 'vue'
 
-onMounted(async () => {
-  if (typeof window !== 'undefined') {
-    const { default: Viewer } = await import('v-viewer')
-    await import('viewerjs/dist/viewer.css')
-    
-    new Viewer(container.value, {
-      inline: false,
-      toolbar: true
-    })
+export default defineComponent({
+  name: 'ImageViewer',
+  props: {
+    options: {
+      type: Object,
+      default: () => ({})
+    }
   }
 })
 </script>
 
-<template>
-  <div ref="container">
-    <slot />
-  </div>
-</template>
+<style scoped>
+.image-viewer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+</style>
