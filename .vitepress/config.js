@@ -791,6 +791,11 @@ export default defineConfig({
           link: "/SurvivalManual/ujn/Thanks",
           items: [],
         },
+        {
+          text: "附：济大地图",
+          link: "/SurvivalManual/ujn/Map",
+          items: [],
+        },
       ],
     },
 

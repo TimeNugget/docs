@@ -8,7 +8,12 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.6.3",
-    "@waline/client": "^3.5.7"
+    "@waline/client": "^3.5.7",
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "v-viewer": "^3.0.11",
+    "@waline/client": "^3.5.7",
+    "viewerjs": "^1.11.7"
   }
 }
