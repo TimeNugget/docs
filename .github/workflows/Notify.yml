@@ -1,0 +1,35 @@
+name: Notify
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send notification
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          SANITIZED_COMMIT_MESSAGE=$(echo "$COMMIT_MESSAGE" | tr '\n' ' ')
+          
+          curl -X POST \
+            "https://${{ secrets.APIURL }}/send_group_msg" \
+            -H "Authorization: Bearer ${{ secrets.APITOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+                 "group_id": "1049806011",
+                 "message": [
+                   {
+                     "type": "text",
+                     "data": {
+                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述: '"$SANITIZED_COMMIT_MESSAGE"'\n🔗 提交: ${{ github.sha }}"
+                     }
+                   }
+                 ]
+               }'
