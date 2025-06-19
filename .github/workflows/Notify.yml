@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send notification
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
-          COMMIT_MESSAGE=$(echo '${{ github.event.head_commit.message }}' | tr '\n' ' ')
+          SANITIZED_COMMIT_MESSAGE=$(echo "$COMMIT_MESSAGE" | tr '\n' ' ')
           
           curl -X POST \
             "https://${{ secrets.APIURL }}/send_group_msg" \
@@ -23,7 +25,7 @@ jobs:
                    {
                      "type": "text",
                      "data": {
-                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述: '"$COMMIT_MESSAGE"'\n🔗 提交: ${{ github.sha }}"
+                       "text": "📢 主分支已更新！\n\n👤 作者: ${{ github.actor }}\n📝 描述: '"$SANITIZED_COMMIT_MESSAGE"'\n🔗 提交: ${{ github.sha }}"
                      }
                    }
                  ]
