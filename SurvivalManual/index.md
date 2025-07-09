@@ -2,6 +2,8 @@
 title: "济南大学求生宝典"
 description: "一站式生存指南，助你在济南大学游刃有余"
 ---
+<link rel="prefetch" href="/Ujnmap.webp" as="image">
+<link rel="prefetch" href="/ujnaddressbook.webp" as="image">
 
 # 《济南大学求生宝典》
 
