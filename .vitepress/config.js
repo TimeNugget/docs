@@ -761,6 +761,7 @@ export default defineConfig({
             { text: "7.交通出行", link: "/SurvivalManual/ujn/Third/7" },
             { text: "8.校园服务", link: "/SurvivalManual/ujn/Third/8" },
             { text: "9.信息化服务", link: "/SurvivalManual/ujn/Third/9" },
+            { text: "10.社团组织", link: "/SurvivalManual/ujn/Third/10" },
           ],
         },
         {
@@ -773,16 +774,24 @@ export default defineConfig({
               link: "/SurvivalManual/ujn/Fourth/1",
             },
             {
-              text: "如果重来，我会这样规划我的大学",
+              text: "关于高考更深层的思考",
               link: "/SurvivalManual/ujn/Fourth/2",
             },
             {
-              text: "我的跨专业/转专业/考研/出国/就业经历",
+              text: "如果重来，我会这样规划我的大学",
               link: "/SurvivalManual/ujn/Fourth/3",
             },
             {
-              text: "给学弟学妹的忠告",
+              text: "我的跨专业/转专业/考研/出国/就业经历",
               link: "/SurvivalManual/ujn/Fourth/4",
+            },
+            {
+              text: "给学弟学妹的忠告",
+              link: "/SurvivalManual/ujn/Fourth/5",
+            },
+            {
+              text: "假期收纳魔法录",
+              link: "/SurvivalManual/ujn/Fourth/6",
             },
           ],
         },

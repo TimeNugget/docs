@@ -12,7 +12,7 @@
 
 [1. 你的生存法则/为人处世的价值观](/SurvivalManual/ujn/First/1)
 
-[2. 你遇到的困难/你已经了解到的真想](/SurvivalManual/ujn/First/2)
+[2. 你遇到的困难/你已经了解到的真相](/SurvivalManual/ujn/First/2)
 
 - [2.1 学习方面](/SurvivalManual/ujn/First/2.1)
 - [2.2 生活方面](/SurvivalManual/ujn/First/2.2)

@@ -28,4 +28,6 @@
 
 [9. 信息化服务](/SurvivalManual/ujn/Third/9)
 
+[10. 社团组织](/SurvivalManual/ujn/Third/10)
+
 ---

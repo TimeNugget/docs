@@ -12,10 +12,14 @@
 
 [我在信院四年的感悟 - 鼠鼠](/SurvivalManual/ujn/Fourth/1)
 
-[大学四年，我做过最不后悔的决定 - 机电小王子](/SurvivalManual/ujn/Fourth/2)
+[关于高考更深层的思考 - 阿纬](/SurvivalManual/ujn/Fourth/2)
 
-[如果重来，我会这样规划我的大学 - 统计学霸](/SurvivalManual/ujn/Fourth/3)
+[大学四年，我做过最不后悔的决定 - 机电小王子](/SurvivalManual/ujn/Fourth/3)
 
-[我的支教/志愿服务经历与收获 - 文学院志愿者](/SurvivalManual/ujn/Fourth/4)
+[如果重来，我会这样规划我的大学 - 统计学霸](/SurvivalManual/ujn/Fourth/4)
+
+[我的支教/志愿服务经历与收获 - 文学院志愿者](/SurvivalManual/ujn/Fourth/5)
+
+[假期收纳魔法录 - 黑炭奈奈蝶](/SurvivalManual/ujn/Fourth/6.md)
 
 ---
