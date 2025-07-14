@@ -793,6 +793,10 @@ export default defineConfig({
               text: "假期收纳魔法录",
               link: "/SurvivalManual/ujn/Fourth/6",
             },
+            {
+              text: "快速完成论文类作业指南",
+              link: "/SurvivalManual/ujn/Fourth/7",
+            },
           ],
         },
         {
